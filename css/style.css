@@ -1014,7 +1014,7 @@ body {
     .nav-menu {
         position: fixed;
         top: 8rem;
-        right: -100%;
+        right: -115%;
         width: 100%;
         height: calc(100vh - 8rem);
         background: rgba(255, 255, 255, 0.98);
@@ -1029,6 +1029,7 @@ body {
     
     .nav-menu.active {
         right: 0;
+        margin-right: 0;
     }
     
     .nav-menu .nav-item {

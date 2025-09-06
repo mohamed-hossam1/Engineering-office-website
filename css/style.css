@@ -14,8 +14,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.6;
     color: #333;
-    direction: rtl;
-    text-align: right;
+    text-align: left;
 }
 
 /* UTILITY CLASSES */
@@ -489,7 +488,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
-    align-items: center;
+    align-items: start;
 }
 
 .about-description {
@@ -500,17 +499,10 @@ body {
 }
 /* features */
 .about-features {
-    display: flex;
-    flex-direction: column;
     gap: 1.5rem;
+    text-align: left;
 }
 
-.feature-item {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-size: 1.6rem;
-}
 
 .feature-item i {
     color: #EF9921;
@@ -632,8 +624,6 @@ body {
 }
 
 .feature-item {
-    display: flex;
-    align-items: flex-start;
     gap: 1rem;
     margin-bottom: 1.5rem;
     font-size: 1.6rem;
@@ -641,6 +631,7 @@ body {
 }
 
 .feature-item i {
+    margin-right: 4px;
     color: #EF9921;
     font-size: 1.8rem;
     margin-top: 0.2rem;

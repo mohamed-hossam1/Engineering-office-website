@@ -1,128 +1,93 @@
+
+
 # Engineering Office Website
 
-A modern, responsive website for an engineering office.
+A comprehensive website for a leading engineering office in Egypt, providing innovative and advanced engineering solutions in design and implementation. This multi-page website showcases the office's services, projects, and expertise with a modern, professional design.
 
-## 🚀 Project Overview
+## Features
 
-The website showcases an engineering office's services, expertise, and contact information with a clean, user-friendly design.
+- **Multi-page Structure**: Home, Services, Projects, About Us, and Contact pages
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Navigation**: Clean navigation menu with mobile hamburger menu
+- **Hero Sections**: Eye-catching hero sections on each page
+- **Service Showcase**: Detailed presentation of engineering services
+- **Project Gallery**: Visual gallery of completed projects
+- **Contact Form**: Interactive contact form for client inquiries
+- **FAQ Section**: Expandable FAQ items on the About page
+- **Social Media Integration**: Links to LinkedIn, GitHub, and WhatsApp
+- **Scroll-to-Top**: Convenient scroll-to-top button
+- **Modern UI**: Clean, professional design with smooth animations
 
-## ✨ Key Features
+## Technologies Used
 
-### Design & User Experience
-- **Modern, Clean Design**: Professional layout with consistent visual hierarchy
-- **Fully Responsive**: Optimized for mobile, tablet, and desktop devices
-- **Arabic RTL Support**: Proper right-to-left text direction and layout
-- **Professional Typography**: Using Cairo font for optimal Arabic text rendering
-- **Consistent Color Scheme**: Orange (#EF9921) and dark blue (#233143) branding
+- **HTML5**: Semantic markup for structure
+- **CSS3**: Modern styling with Flexbox/Grid
+- **JavaScript**: Interactive functionality and DOM manipulation
+- **Font Awesome**: Icon library
+- **Google Fonts**: Cairo font for Arabic text support
 
-### Technical Implementation
-- **Semantic HTML5**: Proper use of header, main, section, footer elements
-- **CSS3 Modern Features**: Grid, Flexbox, animations, and transitions
-- **Vanilla JavaScript**: No external frameworks or libraries
-- **Clean Code Structure**: Organized file structure with separate CSS and JS files
-- **Cross-browser Compatibility**: Works on all modern browsers
-
-### Interactive Features
-- **Mobile Menu Toggle**: Responsive navigation with hamburger menu
-- **Scroll-to-Top Button**: Smooth scrolling back to page top
-- **Form Validation**: Real-time validation for contact form
-- **Smooth Animations**: Fade-in effects and hover interactions
-- **FAQ Accordion**: Expandable/collapsible FAQ sections
-
-## 📁 File Structure
+## Project Structure
 
 ```
-src/
-├── index.html          # Home page
-├── about.html          # About us page
-├── services.html       # Services page
-├── projects.html       # Projects page
-├── contact.html        # Contact page
+├── index.html               # Home page
+├── pages/
+│   ├── services.html       # Services page
+│   ├── projects.html       # Projects page
+│   ├── about.html          # About Us page
+│   └── contact.html        # Contact page
 ├── css/
-│   └── style.css       # Main stylesheet
+│   └── style.css           # Main stylesheet
 ├── js/
-│   └── script.js       # Main JavaScript file
-├── images/             # Image assets
-└── README.md           # This file
+│   └── script.js           # JavaScript functionality
+├── images/                 # Image assets
+│   ├── logo.png
+│   ├── image1.jpg - image10.jpg
+│   └── favicon.ico
+└── README.md               # This file
 ```
 
-## 🛠️ Technologies Used
+## Pages
 
-- **HTML5**: Semantic markup and accessibility features
-- **CSS3**: Modern styling with Grid, Flexbox, and animations
-- **JavaScript (ES6+)**: Interactive functionality and form validation
-- **Font Awesome**: Icons for enhanced visual appeal
-- **Google Fonts**: Cairo font for Arabic typography
+1. **Home Page**: Hero section, about overview, services overview
+2. **Services Page**: Detailed services with 12 specialized engineering services
+3. **Projects Page**: Project showcase with gallery and detailed descriptions
+4. **About Page**: Company information, specializations, and FAQ section
+5. **Contact Page**: Contact form with company information and social links
 
-## 📱 Responsive Design
+## Key Features
 
-The website is built with a mobile-first approach and includes:
+- **Mobile Navigation**: Responsive hamburger menu for mobile devices
+- **Interactive Elements**: Expandable FAQ items and smooth scrolling
+- **Form Validation**: Client-side form validation for contact form
+- **Visual Hierarchy**: Clear content organization and typography
+- **Professional Design**: Clean layout suitable for engineering business
 
-- **Mobile (≤600px)**: Single-column layout with mobile menu
-- **Tablet (601px-900px)**: Adapted layouts with touch-friendly elements
-- **Desktop (>900px)**: Full multi-column layouts with hover effects
+## Demo
 
-## 🎨 Design System
+View the live demo at: https://eclectic-conkies-de5651.netlify.app/
 
-### Colors
-- **Primary Orange**: #EF9921 (buttons, accents, highlights)
-- **Secondary Blue**: #233143 (headers, navigation, footer)
-- **Text Colors**: #333 (primary), #666 (secondary)
-- **Background**: #f8f9fa (sections), white (cards)
+## Installation
 
-### Typography
-- **Font Family**: Cairo (Arabic), Segoe UI (fallback)
-- **Headings**: 700 weight for titles, 600 for subtitles
-- **Body Text**: 400 weight, 1.6 line-height for readability
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mohamed-hossam1/Engineering-office-website.git
+   ```
 
-## 🚀 Getting Started
+2. Navigate to the project directory:
+   ```bash
+   cd Engineering-office-website
+   ```
 
-- ""
+3. Open `index.html` in your browser to view the site
 
-## 📄 Pages Overview
+## Customization
 
-### Home Page (`index.html`)
-- Hero section with call-to-action buttons
-- About overview with mission and vision
-- Services preview with key offerings
-- Professional content and imagery
+- Update company information and contact details
+- Replace images with your own project photos
+- Modify services and project descriptions
+- Customize colors and styling in `style.css`
+- Add or remove FAQ items as needed
 
-### About Us Page (`about.html`)
-- Detailed company information
-- Specializations showcase
-- FAQ section with accordion functionality
-- Team expertise and experience highlights
+---
 
-### Services Page (`services.html`)
-- Comprehensive service listings
-- Detailed service descriptions
-- Professional service categorization
-- Call-to-action for inquiries
-
-### Projects Page (`projects.html`)
-- Project showcase and portfolio
-- Detailed project descriptions
-- Image gallery with hover effects
-
-### Contact Page (`contact.html`)
-- Contact form with validation
-- Company contact information
-- Social media links
-- Interactive form elements
-
-
-## 🎯 Performance Optimizations
-
-- **Optimized Images**: Compressed images for faster loading
-- **Efficient CSS**: Minimal and organized stylesheets
-- **JavaScript Optimization**: Event delegation and throttling
-- **Mobile Performance**: Touch-optimized interactions
-
-## 📞 Contact Information
-
-For questions or support regarding this website:
-
-- **Phone**: +201013429234
-- **Email**: mohamedhossamv8@gmail.com
-- **LinkedIn**: [Mohamed Hossam](https://www.linkedin.com/in/mohamed-hossam-cp/)
-- **GitHub**: [mohamed-hossam1](https://github.com/mohamed-hossam1)
+Created by Mohamed Hossam
